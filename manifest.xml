@@ -1,7 +1,12 @@
 <package>
   <description brief="wiic">
 
-     WiiC is a C/C++ library to control Wii devices, such as: Wiimote, Nunchuck, Classic controller, Guitar Hero 3, Motion Plus and Balance Board. WiiC is supported on Linux and Mac platforms, and it is composed of two layers: WiiC is the C layer, which extends the well known Wiiuse library, fixing some minor bugs, porting it on Mac platforms, and adding some novel functionality, such as the Motion Plus and Balance Board support. WiiCpp is the C++ layer, which is an extension of the well known library WiiuseCpp, and it is embedded in WiiC. The main advantage is that every novel functionality in the C layer is applied to WiiCpp as well. WiiC has been developed at RoCoCo Laboratory, Sapienza University of Rome, Italy. Since RoCoCo Lab is mainly involved in mobile robotics and AI, we realized this library to control mobile robots (e.g. wheeled robots, humanoid robots, UAVs) through Wii devices. In fact, WiiC is supported by OpenRDK robotic framework, for a modular and agile robotic application development.
+     WiiC is a C/C++ library to control Wii devices, such as: Wiimote, Nunchuck, Classic 
+     controller, Guitar Hero 3, Motion Plus and Balance Board. WiiC is supported 
+     on Linux and Mac platforms, and it is composed of two layers: WiiC is the C 
+     layer, which extends the well known Wiiuse library, fixing some minor bugs, porting 
+     it on Mac platforms, and adding some novel functionality, such as the Motion Plus 
+     and Balance Board support. WiiCpp is the C++ layer, which is an extension of the well known library WiiuseCpp, and it is embedded in WiiC. The main advantage is that every novel functionality in the C layer is applied to WiiCpp as well. WiiC has been developed at RoCoCo Laboratory, Sapienza University of Rome, Italy. Since RoCoCo Lab is mainly involved in mobile robotics and AI, we realized this library to control mobile robots (e.g. wheeled robots, humanoid robots, UAVs) through Wii devices. In fact, WiiC is supported by OpenRDK robotic framework, for a modular and agile robotic application development.
 
   </description>
   <author>Kevin Walchko</author>
